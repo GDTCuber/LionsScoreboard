@@ -1,0 +1,114 @@
+body {
+   width: 100%;
+    margin: 0;
+}
+
+
+
+  
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 575px;
+    height: 385px;
+    font-family: 'Oxanium', cursive;
+    background-color: #0076B6;
+}
+.home-score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:  #0076B6;
+    background: #000000;
+    width: 170px;
+    height: 95px;
+    font-size: 80px;
+   margin: 0 30px;
+   border-radius: 20px;
+    
+}
+.away-score {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color:  #0076B6;
+    background: #000000;
+    width: 170px;
+    height: 95px;
+    font-size: 80px;
+   margin: 0 30px ;
+   border-radius: 20px;
+    
+}
+.home-team{
+    text-align: center;
+    margin: 0 5px 0 5px;
+    font-size: 55px;
+    border: 2px solid black;
+    background-color: #B0B7BC;
+}
+.away-team{
+    text-align: center;
+    margin: 0 5px 0 5px;
+    font-size: 55px;
+    border: 2px solid black;
+    background-color: #B0B7BC;
+}
+.btn {
+    margin-top: 10px;
+    font-size: 15px;
+    border: 2px solid #B0B7BC;
+    background-color: #000000;
+    border-radius: 10px;
+    
+}
+#pts-btn4, #pts-btn5, #pts-btn6{
+    border-radius: 5px;
+    background: #B0B7BC;
+}
+
+#pts-btn1, #pts-btn2, #pts-btn3{
+    border-radius: 5px;
+    background: #B0B7BC;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    width: 100%;
+    font-family: 'Oxanium', cursive;
+    text-align: center;
+}
+
+article {
+    width: 100px;
+    text-align: center;
+    background-color: #B0B7BC;
+    border-radius: 20px;
+    margin: 5px 25px 5px 10px;
+    padding: 5px;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px #ccc;
+}
+
+ 
+
+article .count {
+    
+    padding: 5px;
+    text-align: center;
+}
+article #timer{
+    font-family: 'Oxanium', cursive;
+    padding: 5px;
+    color: b#000000;
+    font-weight: bold;
+    background-color: #0076B6;
+    border-radius: 10px;
+}
